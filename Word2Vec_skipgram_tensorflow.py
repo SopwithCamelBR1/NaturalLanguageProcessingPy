@@ -6,13 +6,13 @@ Skipgram
 perhaps try to use sigmoids? but would need to normalise inputs(i.e. frequencies) to between 0-1
 '''
 
-#import stuff to allow code ot run on python2 & 3
+#import stuff to allow code to run on python2 & 3
 from __future__ import (absolute_import, division, print_function)
 from six.moves import (urllib, xrange)
 #allows us to slice dictionaries (only used in printing debug information)
 from itertools import islice
 
-#useful libraries
+#libraries
 import collections
 import math
 import os
